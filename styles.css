@@ -174,7 +174,46 @@ h2 {
     margin-top: -25px;
 }
 
+.section-five {
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
 
+.section-five-content {
+    /*border: 1px solid #00FF00;*/
+    width: 800px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    color: white;
+    margin: 25px;
+    border-radius: 5px;
+    text-align: left;
+    justify-content: center;
+}
+
+.section-five-content button { 
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 7px 16px;
+    border-radius: 5px;
+}
+
+.section-five-item { 
+    padding: 0 50px;
+}
+
+.section-five-item p{ 
+    margin-top: -15px;
+    font-size: 12px;
+}
 
 .footer {
     height: 50px;
