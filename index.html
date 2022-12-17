@@ -3,59 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <p>Header Logo</p>
-        <a href="www.google.com">header link one</a>
-        <a href="www.google.com">header link two</a>
-        <a href="www.google.com">header link three</a>
-    </div>
-    <div class="section-two">
-        <h1>The website is awesome</h1>
-        <p>This website has some subtext that goes here under the main
-            title. It's a smaller font and the color is lower contrast
-        </p>
-        <button>Sign Up</button>
-        <p> this is placeholder for an image</p>
-    </div>
-    <div class="section-three">
-        <h2>Some random information</h2>
-        <div class="section-three-inner">
-            <div class="image-tile">
-                <img>
-                <p>this is some subtext under an illustration of an image</p>
-            </div>
-            <div class="image-tile">
-                <img>
-                <p>this is some subtext under an illustration of an image</p>
-            </div>
-            <div class="image-tile">
-                <img>
-                <p>this is some subtext under an illustration of an image</p>
-            </div>
-            <div class="image-tile">
-                <img>
-                <p>this is some subtext under an illustration of an image</p>
+    <div class="flex-container">
+        <div class="menu-container">
+            <div class="menu">
+                <p>Header Logo</p>
+                <div class="links">
+                    <a href="www.google.com">header link one</a>
+                    <a href="www.google.com">header link two</a>
+                    <a href="www.google.com">header link three</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="section-four">
-        <p>this is an inspiring quote, or a testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually
-            read it. Who knows? All I know is it looks nice
-            <br>-Thor, God of Thunder
-        </p>
-    </div>
-    <div class="section-five">
-        <h5>Call to action! it's time!</h5>
-        <p>
-            Sign up for our product by clicking that button right ober there!
-        </p>
-        <button>Sign up</button>
-    </div>
-    <div class="footer">
-        Copyright c The Odin Project 2021
+        <div class="section-two">
+            <div class="section-two-content">
+                <div class="two-left">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main
+                        title. It's a smaller font and the color is lower contrast
+                    </p>
+                    <button>Sign Up</button>
+                </div>
+                <div class="two-item">
+                    <p> this is placeholder for an image</p>
+                </div>
+            </div>
+        </div>
+        <div class="section-three">
+            <div class="section-three-content">
+                <h2>Some random information</h2>
+                <div class="section-three-inner">
+                    <div class="image-tile">
+                        <div class="image-box"></div>
+                        <p>this is some subtext under an 
+                            illustration of an image</p>
+                    </div>
+                    <div class="image-tile">
+                        <div class="image-box"></div>
+                        <p>this is some subtext under an 
+                            illustration of an image</p>
+                    </div>
+                    <div class="image-tile">
+                        <div class="image-box"></div>
+                        <p>this is some subtext under an 
+                            illustration of an image</p>
+                    </div>
+                    <div class="image-tile">
+                        <div class="image-box"></div>
+                        <p>this is some subtext under an 
+                            illustration of an image</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-four">
+            <div class="section-four-content">
+                <p>This is an inspiring quote, or a testimonial from a customer.
+                    Maybe it's just filling up space, or maybe people will actually
+                    read it. Who knows? All I know is it looks nice
+                    
+                </p>
+                <div class="sig">
+                    -Thor, God of Thunder
+                </div>
+            </div>
+        </div>
+        <div class="section-five">
+            <div class="section-five-content">
+                <h5>Call to action! it's time!</h5>
+                <p>
+                    Sign up for our product by clicking that button right ober there!
+                </p>
+                <button>Sign up</button>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright &copy; The Odin Project 2021
+        </div>
     </div>
 </body>
 </html>
